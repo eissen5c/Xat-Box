@@ -1,0 +1,34 @@
+Chatbox (using ajax)
+Product Owner : Jospeph Hernandez
+Scrum Master : Eissen Jule E. Panganiban
+Members : Aileen Grace Escartin
+		  Tanara
+		  Alquizar
+		  Guico
+		  Yubuco
+		  Ymana
+		  Puyos
+		  Madayag
+		  Comoda
+		  Olinan
+		  Mugdan
+		  Garcia
+		  Oberez
+		  
+Product Owner Specification 
+
+1. panganiban.icacmu.website/se
+
+2.AJAX groupchat
+
+3.Any person can join a chatroom provided that the username is available.
+
+4.Should display the chat with date and time and the name of the person
+
+5.Users can only login once if the session is already started. 
+
+6.Users, chats and Online users are stored in the database
+
+7.Chats are stored in a writable text file
+
+8.

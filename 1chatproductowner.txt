@@ -1,0 +1,45 @@
+NOVEMBER 15 2016
+Product Owner: ARNOLD S. VILLAMOR
+
+
+GROUPCHAT ROOM
+Product Owner’s Specification
+1.tuesday.groupchat.icacmu.website
+
+2.AJAX groupchat
+
+3.Any person can join a chatroom provided that the username is available.
+
+#4.Should display the date and time and the name of the person
+
+#5.Should display the chat 
+
+#6.Users and chatrooms are stored in the database
+
+#*7.Chats are stored in a writable text file
+
+#*8.One chatroom for one text file
+
+
+Username checking:
+
+9.Username checking: On the homepage of the chat, when you choose your username, AJAX is there watching that text input. When you type a character (on keyup) it asks a certain PHP file (via AJAX) if that username is in use. The PHP file responds with a yes or no, and a message is appended to the screen accordingly.
+
+#10.Message box: When a user types into the textarea for sending a message, the AJAX watches that box and ensures the text is under a certain number of characters (set via maxlength attribute on the textarea)
+
+#11.Sending message: When the return/enter key is pressed in the chat box the value of it is sent for processing. PHP writes the text to the text file.
+
+#*12.Updating the chat: Every few seconds, JavaScript  asks a PHP file to poll the text file to see if there are any new lines, if there are, they are displayed.
+
+#13.A chatter can only submit one chat in 5 seconds
+
+14.Blacklist of IPs - kick people out of the chat
+
+#15.Have an actual submit button
+
+#*16.Automatic Filtering of bad words
+
+#17.Usernames as emails
+
+#18.There must be a login and a logout button
+
